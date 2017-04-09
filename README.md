@@ -9,7 +9,7 @@
   - Inside default.json type in `{ "API_KEY": "FREE_API_KEY"}`
   - Replace `FREE_API_KEY` with the key you got from Yandex.
   - Save your default.json file.
-5. On your terminal, type
+5. On your terminal, type `mongod` to run your MongoDB. Proceed with the following,
   - `npm test` for the test.
   - `npm run dev` for development environment. Accessed by typing http://localhost:3000 into your browser
   - `npm start` for production environment. Accessed by typing http://localhost:8000 into your browser
