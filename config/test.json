@@ -1,0 +1,7 @@
+{
+  "test": {
+    "host": "http://localhost:3030",
+    "port": 3030,
+    "mongodb": "mongodb://localhost/translator-test-db"
+  }
+}

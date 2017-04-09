@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Translator</title>
+  </head>
+  <body>
+    <form action="/translate" method="POST">
+    <label>From : </label>
+    <select name="inputLanguage">
+      <option value="fr">French</option>
+      <option value="en">English</option>
+      <option value="es">Spanish</option>
+    </select>
+    <label> -------- </label>
+    <label>To : </label>
+    <select name="outputLanguage">
+      <option value="fr">French</option>
+      <option value="en">English</option>
+      <option value="es">Spanish</option>
+    </select>
+    <hr>
+    </br>
+    <textarea type="text" name="inputText" placeholder="Enter the message you wish to translate here"></textarea>
+    <button type="submit">Translate</button>
+    <br/><h2>Powered by Yandex.Translate</h2>
+  </form>
+  </body>
+</html>

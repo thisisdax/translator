@@ -1,0 +1,25 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "backend dev assignment",
+  "main": "app.js",
+  "scripts": {
+    "dev": "export NODE_ENV=dev && nodemon app.js",
+    "test": "export NODE_ENV=test && mocha",
+    "start": "export NODE_ENV=production && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}
